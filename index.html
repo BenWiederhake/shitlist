@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Shitlist: Gives you a very specific time as to when noone will show up">
+<meta name="keywords" content="shit, list, noshow, specific">
+<title>Shitlist</title>
+<link rel="canonical" href="https://BenWiederhake.github.io/shitlist/">
+<link rel="apple-touch-icon" href="favicon.png">
+<link rel="shortcut icon" href="favicon.png">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+<body>
+<a class="sr-only sr-only-focusable" href="#content">Using this with a screen reader is going to be shit. Skip to main content</a>
+
+<main class="container my-5 pb-4" id="content">
+<h1>Shitlist</h1>
+<p>The only app that gives you a <em>very</em> specific time as to when noone will show up to buy some shit from you!</p>
+<h2>Buy</h2>
+<p>Why bother? You're gonna no-show anyway!</p>
+<h2>Sell</h2>
+<div class="form-group">
+  <label for="saleitem">Please enter the name and a short description of the item(s) you would like to sell:</label>
+  <input type="text" class="form-control" id="saleitem" maxlength="80" placeholder="e.g. &quot;Some old clothes I don't need&quot;">
+</div>
+<button type="button" class="btn btn-primary" onclick="submitClicked()">Submit</button>
+<br />
+<div id="response">
+  <div class="alert alert-primary mt-4 pb-0" role="alert">
+    <h4 class="alert-heading">Sale of &ldquo;Some old clothes&rdquo;</h4>
+    <p><u><em>BargainHunterPhil</em></u> is <em>not</em> gonna come and pick this stuff up on <u><em>Saturday, 4pm</em></u>.</p>
+  </div>
+</div>
+</main>
+
+
+<nav class="fixed-bottom bg-light d-flex p-2 flex-row flex-wrap justify-content-between align-items-center">
+  <div class="mx-2">
+    <span class="navbar-brand mb-0 pb-0" href="#">Shitlist&trade;: We just don't give a shit.</span>
+    <br />
+    <small style="font-size:30%"><p class="text-muted mb-0">Because we're all heavily constipated. Please send help.</p></small>
+  </div>
+
+  <div class="mx-2">
+    <a href="https://github.com/BenWiederhake/shitlist/">Repo</a>&nbsp;|&nbsp;<a href="https://help.github.com/articles/github-privacy-statement/">Data&nbsp;Protection</a>&nbsp;|&nbsp;<a href="https://github.com/BenWiederhake/shitlist/blob/master/LICENSE#L1">License&nbsp;(CC0)</a>
+  </div>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>
