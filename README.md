@@ -24,9 +24,8 @@ Uhh, it's static HTML. Look at the branch `gh-pages`. Or [browse it directly](ht
 ## TODOs
 
 Things I should do eventually:
-* Everything
-* Make it nice
-* Post on Reddit
+* Make it even nicer?
+* Tell people about it
 * ???
 * Profit!
 
