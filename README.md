@@ -6,7 +6,7 @@ Heavily inspired by [Crapshots Episode 413 - The Sale](https://www.youtube.com/w
 
 [The Website](https://benwiederhake.github.io/shitlist/)
 
-<!-- TODO: screenshot maybe? -->
+![A screenshot in which the user is informed that noone is interested to pick up their stuff](screenshot.png)
 
 Of course, the entire thing is a joke. Please don't be mad at me.
 
